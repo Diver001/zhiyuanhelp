@@ -1,0 +1,86 @@
+/* 判断是否是pc访问 */
+@media (min-width: 1025px) {
+    uni-app,
+    body,
+    html{
+        width: 680px !important;
+        margin: 0 auto;
+    }
+
+    /*弹窗的宽度控制*/
+    .JurisdictionAlert .uni-popup__wrapper-box {
+        width: 85% !important;
+    }
+
+    /*顶部筛选条件*/
+    .dropdown-item__content {
+        position: fixed !important;
+        left: 50% !important;
+        right: 0 !important;
+        margin-left: -340px !important;
+        overflow: hidden !important;
+        top: 0;
+        bottom: 0 !important;
+        z-index: 1 !important;
+        width: 680px !important;
+    }
+
+    .nav {
+        width: 680px !important;
+        left: auto !important;
+    }
+
+    /*地址选择弹窗*/
+    .uni-popup__wrapper-box {
+        width: 680px;
+        margin: 0 auto;
+    }
+
+    /*各种专业院校的弹窗*/
+    .uni-transition {
+        width: 680px;
+        margin: 0 auto;
+    }
+
+    /*分数选择*/
+    .uni-picker {
+        width: 680px !important;
+        left: 50% !important;
+        margin-left: calc(-680px / 2) !important;
+    }
+
+    /*各种专业院校弹窗 内部标题的内容*/
+    .school_major .school_scroll .top_title .tips{
+        margin-top: 56px !important;
+    }
+    .uni-badge {
+        width: auto !important;
+    }
+    .weixin_pay .uni-popup__wrapper-box {
+        width: 320px !important;
+        background: transparent !important;
+        text-align: center;
+    }
+    .weixin_pay .uni-popup__wrapper-box .image {
+        width: 240px !important;
+    }
+    .weixin_pay .uni-icons {
+        color: #fff;
+    }
+}
+
+/* 检测是否为平板.如果是放大 startUp 的文理科 单选按钮 */
+@media all and (min-width: 768px) and (orientation:portrait) {
+    .startUp .header .startUp_page .choice .project_radio .radio_item uni-radio {
+        transform: scale(1.5) !important;
+    }
+    .submitForm {
+        height: 108.695rpx;
+        line-height: 108.695rpx;
+    }
+}
+
+/* 屏蔽UC浏览器的广告植入 */
+iframe[src*="ucweb.com"] {
+    display: none !important;
+}

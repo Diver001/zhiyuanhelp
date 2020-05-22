@@ -1,0 +1,204 @@
+@import "../tpl/common";
+@import "../tpl/color";
+
+.startUp {
+  .header {
+    width: 100%;
+    height: 286.231rpx;
+    background: url("~@/static/img/header_back.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: var(--status-bar-height);
+    .navigation {
+      width: 100%;
+      height: 79.71rpx;
+      font-size: 28.985rpx;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 0 18.115rpx;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      span {
+        font-size: 36.231rpx;
+        vertical-align: text-bottom;
+        margin-right: 10.869rpx;
+        font-weight: 700;
+      }
+      text {
+        font-size: 29.185rpx;
+      }
+    }
+    .startUp_page {
+      .page_w();
+	  padding-left: 28.985rpx;
+	  padding-right: 28.985rpx;
+      box-shadow: 0px 3.623rpx 10.869rpx 0px rgba(0, 0, 0, 0.4);
+      h2 {
+        font-size: 36.241rpx;
+        margin-bottom: 57.971rpx;
+      }
+      .choice {
+        width: 100%;
+        .submitForm {
+          border-radius: 72.463rpx;
+          margin-top: 45.289rpx;
+          background: @themeColor;
+		  font-size: 34.42rpx;
+          box-shadow: 0 8px 19px 0 rgba(27,163,250,.5);
+		  background: #00c6ff;  /* fallback for old browsers */
+		  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+		  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .special {
+          border-bottom: none !important;
+          .left {
+            display: flex;
+            border: 1.811rpx solid #eee;
+            padding-left: 16.304rpx;
+            box-sizing: border-box;
+            border-radius: 16.304rpx;
+            height: 67.028rpx;
+            width: 39%;
+			padding-right: 21.739rpx;
+            .left_leve {
+              padding-left: 21.739rpx;
+              border-left: 1.811rpx solid #ebebeb;
+            }
+            .left_city {
+              display: flex;
+              align-items: center;
+			  padding-right: 16.304rpx;
+              .iconfont {}
+              .uni-input {
+                font-size: 25.362rpx;
+              }
+            }
+          }
+          .right {
+            display: flex;
+            border: 1.811rpx solid #eee;
+            padding-left: 16.304rpx;
+            box-sizing: border-box;
+            border-radius: 25.362rpx;
+            height: 67.028rpx;
+            width: 39%;
+          }
+        }
+        .project_radio {
+          align-items: center;
+          .new_test {
+            display: flex;
+            width: 60%;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            .uni-badge {
+			  margin-right: 16.604rpx;
+			  margin-bottom: 11.869rpx;
+			  font-size: 25.762rpx;
+			  color: #9a9a9a;
+			  padding: 0 12.981rpx;
+            }
+            .uni-badge--primary {
+              color: #fff !important;
+            }
+          }
+          .radio_item {
+            float: left;
+            margin-left: 36.231rpx;
+            display: flex;
+            align-items: center;
+            radio {
+              transform:scale(0.7)
+            }
+            view {
+              padding-top: 10.869rpx;
+              font-size: 32.608rpx;
+              color: #696969;
+            }
+          }
+        }
+
+        .choice_item {
+          display: flex;
+          padding: 27.173rpx 0;
+          justify-content: space-between;
+          border-bottom: 1.811rpx solid #e8e8e8;
+          .city_title {
+            font-size: 29.285rpx;
+			color: #999;
+          }
+          .city_fraction {
+            display: flex;
+            align-items: center;
+            input {
+              text-align: center;
+              margin-right: 16.304rpx;
+              font-size: 30.997rpx !important;
+            }
+            text {
+              font-size: 32.608rpx;
+              color: #696969;
+            }
+          }
+          .city_address {
+            .iconfont {
+              color: @themeColor;
+              font-weight: bolder;
+			  font-size: 32.908rpx;
+            }
+            text {
+              font-size: 32.608rpx;
+			  color: #696969;
+              margin-left: 9.057rpx;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  .action_list {
+    margin-top: 650.362rpx;
+    h2 {
+      text-align: center;
+      color: rgba(0, 114, 255, 1);
+      font-size: 32.608rpx;
+      margin-bottom: 48rpx;
+    }
+    ul {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 95%;
+      margin: 0 auto;
+      li {
+        width: 45%;
+        background: #E7F1FD;
+        border-radius: 21.739rpx;
+        padding: 9.057rpx 18.115rpx 16.304rpx 18.115rpx;
+        box-sizing: border-box;
+        margin-bottom: 28.985rpx;
+        .list_header{
+          .iconfont {
+            font-size: 43.478rpx;
+            vertical-align: middle;
+            margin-right: 9.057rpx;
+            color: @themeColor;
+          }
+          text {
+            font-size: 32.608rpx;
+            color: #000;
+          }
+        }
+        .list_mes {
+          color: #9F9F9F;
+          margin-top: 21.739rpx;
+          font-size: 28.985rpx;
+        }
+      }
+    }
+  }
+}

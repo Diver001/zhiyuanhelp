@@ -1,0 +1,68 @@
+@import "../tpl/color";
+.order_status {
+  .add_score {
+    padding: 9.057rpx 18.115rpx;
+    background: @themeColor;
+    color: #fff;
+    border-radius: 54.347rpx;
+    display: flex;
+    box-shadow: 0 2px 4px 0 rgba(27,120,250,.5);
+	align-items: center;
+    .iconfont {
+      color: #fff;
+      margin-top: 6.228rpx;
+    }
+    text {
+      font-size: 25.662rpx;
+    }
+  }
+  .order_status_content {
+    .error {
+      margin: 36.231rpx 0;
+      font-size: 27.173rpx;
+      color: #8d8d8d;
+      text-align: center;
+    }
+    .score_item {
+      width: 100%;
+      padding: 25.362rpx 28.985rpx;
+      display: flex;
+      justify-content: space-between;
+      background: #F9FAFE 100%;
+      border-radius: 23.55rpx;
+      box-sizing: border-box;
+      align-items: center;
+      margin: 21.939rpx 0;
+      .score {
+        font-size: 27.673rpx
+      }
+      .status {
+        display: flex;
+        li {
+          width: 47.101rpx;
+          height: 47.101rpx;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 47.101rpx;
+          border: 1.811rpx solid #BBBBBB;
+          color: red;
+          font-size: 25.362rpx;
+          margin-left: 23.55rpx;
+        }
+        .no {
+          color: #BBBBBB;
+        }
+      }
+      .tips {
+        font-size: 23.55rpx;
+        padding: 9.057rpx 12.681rpx;
+        border-radius: 54.347rpx;
+        border: 1.811rpx solid #C8C3C3;
+        color: #C8C3C3;
+      }
+    }
+    .NoPayOrder {
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}

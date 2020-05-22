@@ -1,0 +1,167 @@
+/*登录页面输入框样式重置*/
+.login .login_page uni-input {
+    font-size: 27.573rpx !important;
+}
+
+/*父容器宽高必须设置100%，为了兼容PC浏览器*/
+html,
+body,
+uni-app,
+uni-page,
+uni-page-wrapper,
+uni-page-body,
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/*清除滚动条*/
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+/* 解决头条小程序组件内引入字体不生效的问题 */
+/* #ifdef MP-TOUTIAO */
+@font-face {
+    font-family: uniicons;
+    src: url('/static/uni.ttf');
+}
+/* #endif */
+
+/*字体样式 开始*/
+@font-face {
+    font-family: 'iconfont';  /* project id 1750291 */
+    src: url('http://at.alicdn.com/t/font_1750291_rfhbjgayb8.eot');
+    src: url('http://at.alicdn.com/t/font_1750291_rfhbjgayb8.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_1750291_rfhbjgayb8.woff2') format('woff2'),
+    url('http://at.alicdn.com/t/font_1750291_rfhbjgayb8.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_1750291_rfhbjgayb8.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_1750291_rfhbjgayb8.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 28.985rpx;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*字体样式 结束*/
+
+/*startUp 页面输入框提示文字的样式*/
+.city_fraction .input-placeholder,
+.city_fraction .uni-input-input{
+    color: #999999;
+    font-size: 28.985rpx;
+}
+
+/*默认样式清除*/
+ul,li,h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*弹窗的字体*/
+.JurisdictionAlert {
+    .uni-icon-cancel {
+        font-size: 32.608rpx !important;
+    }
+    .uni-popup {
+        z-index: 999 !important;
+    }
+    .uni-popup__wrapper-box {
+        width: 80%;
+        padding: 5px 14px 14px 14px;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+}
+
+
+/*边距*/
+.content {
+    /* #ifdef MP-WEIXIN  || APP-PLUS || MP-BAIDU */
+    padding-top: calc(var(--status-bar-height) + 181rpx) !important;
+    /* #endif */
+}
+
+/*用户登录后，内容区域和顶部的距离*/
+.order_status_content,
+.payment_content,
+.setting_list,
+.feedback_content,
+.MySchool_content,
+.work_order_content{
+    width: 95%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 15%;
+    background: #fff;
+    border-radius: 11px;
+}
+
+/*列表底部样式*/
+.item_message {
+    margin-top: 23.55rpx;
+    display: flex;
+    justify-content: space-between;
+    li {
+        flex: 1;
+        color: #666;
+        text-align: center;
+        text {
+            font-size: 21.739rpx;
+            opacity: .6;
+            padding-bottom: 10.869rpx;
+        }
+        view {
+            font-size: 25.362rpx;
+        }
+    }
+}
+
+/*专业筛选弹窗层级*/
+.major_dd {
+    z-index: 999 !important;
+    .uni-transition {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 905.797rpx;
+        overflow-y: scroll;
+        background: #fff;
+        border-top-left-radius: 25.362rpx !important;
+        border-top-right-radius: 25.362rpx !important;
+    }
+}
+
+/*index页面院校点击的弹窗*/
+.school_major {
+    z-index: 999 !important;
+    .uni-transition {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 905.797rpx;
+        overflow-y: scroll;
+        background: #fff;
+        border-top-left-radius: 25.362rpx !important;
+        border-top-right-radius: 25.362rpx !important;
+    }
+}
+
+/*公共组件 ListItem.vue 收藏按钮的样式*/
+.like {
+    background: #fff;
+    border: 1.811rpx solid rgba(41,169,250,.3);
+    color: #1b78fa;
+    font-size: 28.985rpx;
+    border-radius: 28.985rpx;
+    line-height: 57.971rpx;
+    padding: 0 18.115rpx;
+    text-align: center;
+    height: 61.594rpx;
+}
+.yj_like {
+    color: #a4a4a4;
+    border: 1.811rpx solid #a4a4a4;
+}

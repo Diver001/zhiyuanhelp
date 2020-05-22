@@ -1,0 +1,162 @@
+{
+	"pages": [
+      {
+        "path": "pages/startUp/startUp",
+        "style" : {
+		  "navigationBarTitleText": "智能填报 - 聚志愿",
+          "app-plus": {
+            "animationType": "pop-in",
+            "animationDuration": 300,
+            "softinputNavBar": "none",
+            "safearea": {
+              "background": "#CCCCCC",
+              "bottom": {
+                "offset": "auto"
+              }
+            }
+          }
+        }
+      },
+      {
+        "path" : "pages/index/index",
+        "style" : {
+          "navigationBarTitleText": "首页 - 聚志愿",
+          "app-plus": {
+            "animationType": "pop-in",
+            "animationDuration": 300,
+            "softinputNavBar": "none",
+            "safearea": {
+              "background": "#CCCCCC",
+              "bottom": {
+                "offset": "auto"
+              }
+            }
+          }
+        }
+      },
+      {
+          "path" : "pages/me/me",
+          "style" : {
+            "navigationBarTitleText": "我的 - 聚志愿",
+            "app-plus": {
+              "animationType": "pop-in",
+              "animationDuration": 300,
+              "softinputNavBar": "none",
+              "safearea": {
+                "background": "#CCCCCC",
+                "bottom": {
+                  "offset": "auto"
+                }
+              }
+            }
+          }
+      },
+      {
+          "path" : "pages/login/login",
+          "style" : {
+            "navigationBarTitleText": "用户登录 - 聚志愿",
+            "app-plus": {
+              "animationType": "pop-in",
+              "animationDuration": 300,
+              "softinputNavBar": "none",
+              "safearea": {
+                "background": "#CCCCCC",
+                "bottom": {
+                  "offset": "auto"
+                }
+              }
+            }
+          }
+      }
+      ,
+      {
+          "path" : "pages/payment/payment",
+          "style" : {
+            "navigationBarTitleText": "订单支付 - 聚志愿",
+            "app-plus": {
+              "animationType": "pop-in",
+              "animationDuration": 300,
+              "softinputNavBar": "none",
+              "safearea": {
+                "background": "#CCCCCC",
+                "bottom": {
+                  "offset": "auto"
+                }
+              }
+            }
+          }
+      },
+      {
+        "path" : "pages/orderStatus/orderStatus",
+        "style" : {
+          "navigationBarTitleText": "我的成绩 - 聚志愿",
+          "app-plus": {
+            "animationType": "pop-in",
+            "animationDuration": 300,
+            "softinputNavBar": "none",
+            "safearea": {
+              "background": "#CCCCCC",
+              "bottom": {
+                "offset": "auto"
+              }
+            }
+          }
+        }
+      }
+      ,{
+        "path" : "pages/feedback/feedback",
+        "style" : {
+          "navigationBarTitleText": "问题反馈 - 聚志愿",
+          "app-plus": {
+            "animationType": "pop-in",
+            "animationDuration": 300,
+            "softinputNavBar": "none",
+            "safearea": {
+              "background": "#CCCCCC",
+              "bottom": {
+                "offset": "auto"
+              }
+            }
+          }
+        }
+      }
+      ,{
+          "path" : "pages/mySchool/mySchool",
+          "style" : {
+            "navigationBarTitleText": "我的院校 - 聚志愿",
+            "app-plus": {
+              "animationType": "pop-in",
+              "animationDuration": 300,
+              "softinputNavBar": "none",
+              "safearea": {
+                "background": "#CCCCCC",
+                "bottom": {
+                  "offset": "auto"
+                }
+              }
+            }
+          }
+      }
+      ,{
+          "path" : "pages/WorkOrder/WorkOrder",
+        "style" : {
+          "navigationBarTitleText": "我的工单 - 聚志愿",
+          "app-plus": {
+            "animationType": "pop-in",
+            "animationDuration": 300,
+            "softinputNavBar": "none",
+            "safearea": {
+              "background": "#CCCCCC",
+              "bottom": {
+                "offset": "auto"
+              }
+            }
+          }
+        }
+      }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"onReachBottomDistance": 280
+	}
+}

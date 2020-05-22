@@ -1,0 +1,72 @@
+@import "../tpl/color";
+.work_order_content {
+  .order_content {
+    margin-top: 20px;
+    .order_l {
+      margin-bottom: 10px;
+      border: 1px solid #efefef;
+      border-radius: 8px;
+      .order_item {
+        padding: 5px;
+        padding-left: 10px;
+        background: #fff;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        height: 70px;
+        justify-content: space-between;
+        box-sizing: border-box;
+        .iconfont {
+          font-size: 30px;
+          color: @themeColor;
+          flex: 1;
+        }
+        .item_center {
+          flex: 6;
+          border-right: 1px solid #f0f0f0;
+          padding-right: 15px;
+          box-sizing: border-box;
+          .top {
+            display: flex;
+            justify-content: space-between;
+            .title {
+              font-size: 15px;
+              font-weight: bolder;
+            }
+            .time {
+              font-size: 13px;
+              color: #bbb9b9;
+            }
+          }
+          .mess {
+            font-size: 13px;
+            color: #bbb9b9;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 240px;
+          }
+        }
+        .status {
+          flex: 2;
+          font-size: 14px;
+          text-align: center;
+        }
+
+        .error {
+          color: #fd5252;
+        }
+        .success {
+          color: #049004;
+        }
+      }
+      .show_content {
+        padding: 5px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        border-top: 1px solid #efefef;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,171 @@
+@import "../tpl/color";
+.payment {
+  .payment_content {
+
+    .tips_title {
+      font-size: 33.197rpx;
+      padding-left: 21.739rpx;
+      color: #000;
+      border-left: 5.434rpx solid @themeColor;
+    }
+    .tips_content {
+      margin-top: 23.55rpx;
+      background: #f9f9f9;
+      padding: 18.115rpx;
+      box-sizing: border-box;
+      margin-bottom: 30.797rpx;
+      li {
+        font-size: 25.473rpx;
+        line-height: 47.101rpx;
+        margin-left: 12.681rpx;
+        color: #999595;
+        &:before {
+          content: "●";
+          color: #585757;
+          font-size: 3.623rpx;
+          margin-right: 12.681rpx;
+        }
+      }
+    }
+    .buy_score {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 28.985rpx;
+      padding-left: 27.173rpx;
+      box-sizing: border-box;
+      padding-right: 14.492rpx;
+      align-items: center;
+      .score_item{
+        padding: 5.434rpx 27.173rpx;
+        background: #f9f9f9;
+        border-radius: 21.739rpx;
+        font-size: 30.797rpx;
+      }
+      .tips {
+        color: @themeColor
+      }
+      .new_num {
+        width: 150.851rpx;
+        font-size: 25.362rpx;
+        border-bottom: 1.811rpx solid #999595;
+        text-align: center;
+        padding-bottom: 5.434rpx;
+      }
+      .city_project {
+        font-size: 29.985rpx;
+        .radioF {
+          display: flex;
+
+          .radio_item {
+            display: flex;
+            align-items: center;
+            margin-right: 9.057rpx;
+            radio {
+              transform: scale(0.7);
+            }
+            view {
+              font-size: 25.362rpx;
+              padding-top: 10.869rpx;
+            }
+          }
+        }
+
+      }
+      .radio {
+        radio {
+          transform:scale(0.8)
+        }
+        text {
+          vertical-align: middle;
+          font-size: 30.797rpx;
+        }
+      }
+
+      .location{
+
+        .iconfont{
+          font-size: 30.997rpx;
+          color: @themeColor;
+          margin-right: 4px;
+        }
+        text,
+        .score{
+          font-size: 30.997rpx;
+        }
+      }
+    }
+    .buy_score_tips {
+      font-size: 23.85rpx;
+      color: #999595;
+      margin-top: 36.531rpx;
+      margin-left: 32.908rpx;
+    }
+    .pay_type {
+      display: flex;
+      margin-top: 120.86rpx;
+      margin-bottom: 36.231rpx;
+      justify-content: space-around;
+      .pay_button_alipay {
+        width: 40%;
+        background: #00c6ff; 
+        background: linear-gradient(to right, #0072ff, #00c6ff);
+        height: 85.144rpx;
+        line-height: 85.144rpx;
+        text-align: center;
+        border-radius: 54.347rpx;
+        padding: 0 18.115rpx;
+        box-shadow: 0 7.246rpx 10.869rpx 0 rgba(7,160,248,.3);
+      }
+      .pay_button_weixin {
+        width: 40%;
+        background: #a8ff78; 
+        background: linear-gradient(to right, #78ffd6, #a8ff78);
+        height: 85.144rpx;
+        line-height: 85.144rpx;
+        text-align: center;
+        border-radius: 54.647rpx;
+        box-shadow: 0 7.246rpx 10.869rpx 0 rgba(81,194,71,.3);
+        padding: 0 18.115rpx;
+      }
+      .iconfont {
+        color: #fff;
+        font-size: 45.689rpx;
+		vertical-align: bottom;
+      }
+      text {
+        margin-left: 18.415rpx;
+        color: #fff;
+      }
+    }
+
+    .pay_monkey {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 34.62rpx;
+      margin-top: 36.631rpx;
+      .message{
+        font-size: 29.362rpx;
+      }
+      .monkey{
+        color: @themeColor;
+        font-size: 43.478rpx;
+      }
+    }
+    .bind_phone {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 34.62rpx;
+      margin-top: 20px;
+      text {
+        font-size: 29.362rpx;
+      }
+      .input_phone {
+        font-size: 23.55rpx;
+		border-bottom: 1.811rpx solid #DDDDDD;
+		width: 70%;
+		text-align: center;
+        padding-bottom: 10.969rpx;
+      }
+    }
+  }
+}
